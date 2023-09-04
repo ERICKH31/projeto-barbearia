@@ -20,7 +20,7 @@
     --font-destaque: 'Bebas Neue', sans-serif;
     --font-candy-pop: "candy-pop", sans-serif;
 }
-    main h1{
+main h1{
         text-align: center;
         font-size: 2em;
         margin-bottom: 20px;
@@ -30,10 +30,10 @@
         font-family:var(--font-destaque) ;
         font-weight: normal;
     }
-    p small{
-        font-family: var(--font-destaque);
+    p{
         text-align: justify;
         padding: 5px;
+        
     }
     p.corte{
         font-family: var(--font-destaque);
@@ -43,7 +43,16 @@
         width: 300px;
         height: 300px;
         padding: 10px;
+
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+        box-sizing: border-box;
+        
+    }
+    img:hover{
         border: 2px solid black;
+        transform: translate(-3px, -3px);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
+        transition: transform 0.3s, border 0.5s;
     }
     p a{
         color: var(--cor4);
@@ -61,6 +70,10 @@
         background-color: var(--cor5);
         color: var(--cor3);
         text-decoration: underline;
+    }
+    p.corte{
+        font-family: var(--font-destaque);
+        padding: 10px;
     }
 </style>
 <body>

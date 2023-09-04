@@ -43,7 +43,16 @@
         width: 300px;
         height: 300px;
         padding: 10px;
+
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+        box-sizing: border-box;
+        
+    }
+    img:hover{
         border: 2px solid black;
+        transform: translate(-3px, -3px);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
+        transition: transform 0.3s, border 0.5s;
     }
     p a{
         color: var(--cor4);
