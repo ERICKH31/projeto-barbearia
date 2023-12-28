@@ -73,7 +73,7 @@ nav{
 }
 nav > a{
     color: var(--cor4);
-    padding: 7px;
+    padding: 9px;
     border-radius: 15px;
     text-decoration: underline;
     font-family: var(--font-destaque);
