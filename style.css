@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sriracha&display=swap');
 
 @font-face {
-    font-family:shadser;
-    src: url(fonts02/SHADSER.TTF) format(opentype);
+    font-family: 'barber' ;
+    src: url(fonts02/Barber_shop.ttf) format(opentype);
     font-weight: normal;
     font-style: normal;
     }
@@ -18,7 +18,7 @@
 
     --fonte-padrão:  Georgia, 'Times New Roman', Times, serif; 
     --font-destaque: 'Bebas Neue', sans-serif;
-    --font-titulo: "shadser", sans-serif;
+    --font-titulo: 'barber', Georgia, sans-serif;
 }
 *{
     margin: 0px;
